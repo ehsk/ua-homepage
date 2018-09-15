@@ -1,16 +1,16 @@
 .bg-primary {
-  background-color: $primary !important;
+  background-color: $ua-green !important;
 }
 
 .text-primary {
-  color: $primary !important;
+  color: $ua-green !important;
 }
 
 a {
-  color: $primary;
+  color: $ua-green;
   &:hover,
   &:focus,
   &:active {
-    color: darken($primary, 15%);
+    color: darken($ua-gold, 12%);
   }
 }

@@ -3,7 +3,7 @@
 body {
   @include body-font;
   padding-top: 54px;
-  color: $gray-600;
+  color: $gray-900;
 }
 @media (min-width: 992px) {
   body {
@@ -54,18 +54,18 @@ p.lead {
     display: inline-block;
     height: 3.5rem;
     width: 3.5rem;
-    background-color: $gray-700;
+    //background-color: $ua-green;
     color: $white !important;
-    border-radius: 100%;
+    border-radius: 20%;
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 2.0rem;
     line-height: 3.5rem;
     margin-right: 1rem;
     &:last-child {
       margin-right: 0;
     }
     &:hover {
-      background-color: $primary;
+      background-color: $ua-cyan;
     }
   }
 }
@@ -75,6 +75,17 @@ p.lead {
   .list-inline-item i {
     &:hover {
       color: $primary;
+    }
+  }
+}
+
+.paper-link {
+  a {
+    color: $ua-blue;
+
+    &:hover {
+      color: $ua-blue;
+      font-weight: bold;
     }
   }
 }
